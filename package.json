@@ -19,6 +19,8 @@
     "@testing-library/jest-dom": "latest",
     "@testing-library/react": "latest",
     "@testing-library/user-event": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
     "jsdom": "latest",
     "typescript": "latest",
     "vitest": "latest"
