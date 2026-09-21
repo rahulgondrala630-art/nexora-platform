@@ -1,3 +1,0 @@
-import type { Activity } from '../types';
-type Props = { activities: Activity[] };
-export default function ActivityTimeline({ activities }: Props) { return <section className="activity-card"><div className="section-heading"><div><span className="eyebrow">RECENT ACTIVITY</span><h2>Small signals, useful context</h2></div><button className="icon-button" aria-label="Filter activity">≡</button></div><div className="timeline">{activities.map(activity => <div className="timeline-item" key={activity.id}><span className={`timeline-icon ${activity.kind}`}>{activity.kind === 'decision' ? '◆' : activity.kind === 'risk' ? '!' : '↗'}</span><div><strong>{activity.title}</strong><p>{activity.detail}</p><small>{activity.time}</small></div></div>)}</div></section>; }
