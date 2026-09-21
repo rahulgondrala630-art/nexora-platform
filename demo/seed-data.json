@@ -1,0 +1,9 @@
+{
+  "workspace": "Product Studio",
+  "generatedFor": "Nexora demo only",
+  "workstreams": [
+    {"title":"Workspace onboarding","status":"On track","priority":"High","progress":78},
+    {"title":"Usage insights","status":"At risk","priority":"High","progress":52},
+    {"title":"API reliability","status":"On track","priority":"Medium","progress":91}
+  ]
+}
